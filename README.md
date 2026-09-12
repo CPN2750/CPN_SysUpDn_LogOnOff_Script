@@ -42,7 +42,7 @@ CPN-SysUpDn-LogOnOff/
 ---
 
 ## 📝程式碼
-### CPN_SysUp.bat
+### [CPN_SysUp.bat](/CPN_SysUp.bat)
 ```bat
 @echo off
 set PATH="D:\[Portable]\PortableApps Platform\PortableApps\7-ZipPortable\App\7-Zip64";%PATH%
@@ -92,7 +92,7 @@ exit
 
 ---
 
-### CPN_SysDn.bat
+### [CPN_SysDn.bat](CPN_SysDn.bat)
 ```bat
 @echo off
 set PATH="D:\[Portable]\PortableApps Platform\PortableApps\7-ZipPortable\App\7-Zip64";%PATH%
@@ -119,7 +119,7 @@ del /f /q %WKP%\!LOCK
 exit
 ```
 ---
-### CPN_LogOn.bat
+### [CPN_LogOn.bat](CPN_LogOn.bat)
 ```bat
 @echo off
 set PATH="D:\[Portable]\PortableApps Platform\PortableApps\7-ZipPortable\App\7-Zip64";%PATH%
@@ -234,7 +234,7 @@ echo.>>%log%
 exit
 ```
 ---
-### CPN_LogOff.bat
+### [CPN_LogOff.bat](CPN_LogOff.bat)
 ```bat
 @echo off
 set PATH="D:\[Portable]\PortableApps Platform\PortableApps\7-ZipPortable\App\7-Zip64";%PATH%

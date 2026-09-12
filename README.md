@@ -8,12 +8,11 @@
 ```
 CPN-SysUpDn-LogOnOff/
 ├── README.md              # 專案說明文件
-├── scripts/               # 批次檔主程式
-│   ├── CPN_SysUp.bat
-│   ├── CPN_SysDn.bat
-│   ├── CPN_LogOn.bat
-│   └── CPN_LogOff.bat
-└── LICENSE                # 授權條款 (建議 MIT)
+├── CPN_SysUp.bat          # 系統開機批次檔
+├── CPN_LogOn.bat          # 使用者登入批次檔
+├── CPN_LogOff.bat         # 使用者登出批次檔
+├── CPN_SysDn.bat          # 系統關機批次檔
+└── LICENSE                # 授權條款 (MIT)
 ```
 
 ---

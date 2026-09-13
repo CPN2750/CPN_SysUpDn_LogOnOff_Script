@@ -39,6 +39,7 @@ set CPBK=^
 	"profile\Default\Google Profile Picture.png" ^
 	"profile\Default\Preferences" ^
 	"profile\Default\Secure Preferences" ^
+	"profile\Default\trusted_vault.pb" ^
 	"profile\Default\Web Data" ^
 	"-xr!*.old"
 

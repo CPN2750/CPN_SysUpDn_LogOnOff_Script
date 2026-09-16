@@ -26,6 +26,7 @@ CPN-SysUpDn-LogOnOff/
 
 ## 🔑說明
 + 🖥️ 系統啟動
+  
   	[`#CPN_SysUpDn.bat /up`](/#CPN_SysUpDn.bat)
   
   	[`CPN_SysUp.bat`](/CPN_SysUp.bat)
@@ -36,6 +37,7 @@ CPN-SysUpDn-LogOnOff/
 	- 成功後建立 U:\TEMP 目錄。
 	
 + 🖥️ 系統關機
+  
   	[`#CPN_SysUpDn.bat /dn`](/#CPN_SysUpDn.bat)
   
     [`CPN_SysDn.bat`](CPN_SysDn.bat)
@@ -44,6 +46,7 @@ CPN-SysUpDn-LogOnOff/
 	- 可依照需求擴充腳本。
 
 + 👤 使用者登入
+  
   	[`$CPN_LogOnOff.bat /on`](CPN_LogOnOff.bat)
   
   	[`CPN_LogOn.bat`](CPN_LogOn.bat)
@@ -53,6 +56,7 @@ CPN-SysUpDn-LogOnOff/
 	- 依序還原使用者設定檔，透過 7z x 解壓縮 .zip 檔到 RamDisk。
 	
 + 👤 使用者登出
+  
   	[`$CPN_LogOnOff.bat /off`](CPN_LogOnOff.bat)
   
   	[`CPN_LogOff.bat`](CPN_LogOff.bat)
@@ -73,6 +77,7 @@ CPN-SysUpDn-LogOnOff/
 	CPN_GPO_Deploy.bat /setup   # 自動部署
 	CPN_GPO_Deploy.bat /clean   # 清除配置
 	CPN_GPO_Deploy.bat /?       # 顯示說明
-  ```
+
+
 ---
 
